@@ -3,7 +3,7 @@ import React from 'react'
 import classnames from 'classnames'
 import Image from 'next/image';
 import flower3 from '../../../public/flower3.png'
-import Ica from '../../../public/Ica.png'
+import Yulia from '@/public/Yulia.png'
 import { TweenMax, Power3 } from 'gsap'
 import BG from '../../../public/bg-loc-small.png'
 import Calender from '../../../public/calender.png'
@@ -38,7 +38,7 @@ export default function Page() {
         />
         <div className={classnames('absolute flex flex-col top-[90px] left-0 right-0 ml-auto mr-auto text-center opacity-0')} ref={item => { textTitle = item }}>
           <h1 className={classnames('text-black text-[24px] leading-[100%] tracking-[0.3em] font-caladea')}>THE WEDDING</h1>
-          <h1 className={classnames('text-black text-[24px] leading-[100%] tracking-[0.3em] font-caladea mt-[31px]')}>EGA & ICA</h1>
+          <h1 className={classnames('text-black text-[24px] leading-[100%] tracking-[0.3em] font-caladea mt-[31px]')}>PRIMA & YULIA</h1>
         </div>
       </div>
 
@@ -61,7 +61,7 @@ export default function Page() {
               <div className={classnames('ml-3')}>
                 <Image src={Calender} height={10} width={23} alt="ring-image" />
               </div>
-              <h1 className={classnames('ml-[8px] text-[14px] font-caladea')}>Jumat, 6 Januari 2023</h1>
+              <h1 className={classnames('ml-[8px] text-[14px] font-caladea')}>Jumat, 8 September 2023</h1>
             </div>
             <div className={classnames('flex mb-[14px]')}>
               <div className={classnames('ml-3')}>
@@ -73,7 +73,9 @@ export default function Page() {
               <div className={classnames('ml-3')}>
                 <Image src={Place} height={10} width={23} alt="ring-image" />
               </div>
-              <h1 className={classnames('ml-[8px] text-[14px] font-caladea')}>Islamic Center Padang Panjang</h1>
+              <h1 className={classnames('ml-[8px] text-[14px] font-caladea')}>Masjid Nurul Yaqin
+                Berok Siteba, Kec. Nanggalo,
+                Padang</h1>
             </div>
             <div className={classnames('flex flex-col items-center justify-center')}>
               <div className={classnames('ml-3 ')}>
@@ -106,7 +108,7 @@ export default function Page() {
               <div className={classnames('ml-3')}>
                 <Image src={Calender} height={10} width={23} alt="ring-image" />
               </div>
-              <h1 className={classnames('ml-[8px] text-[14px] font-caladea')}>Sabtu, 14 Januari 2023</h1>
+              <h1 className={classnames('ml-[8px] text-[14px] font-caladea')}>Kamis, 14 September 2023</h1>
             </div>
             <div className={classnames('flex mb-[14px]')}>
               <div className={classnames('ml-3')}>
@@ -119,12 +121,12 @@ export default function Page() {
                 <Image src={Place} height={10} width={23} alt="ring-image" />
               </div>
               <h1 className={classnames('ml-[8px] text-[14px] font-caladea w-[250px]')}>Rumah Mempelai Pria
-                Jl. Rambutan Raya No. 143, Perumnas Belimbing,
-                Padang</h1>
+                Jl. Cendrawasih No. 4, Nagari Tj. Baringin,
+                Lb. Sikaping, Pasaman</h1>
             </div>
             <div className={classnames('flex flex-col items-center justify-center')}>
               <div className={classnames('ml-3 ')}>
-                <a href="https://goo.gl/maps/n8XkYkGioaxiVEnh8">
+                <a href="https://goo.gl/maps/B2jN9KtLdpEuLaR66">
                   <button className={classnames('py-[8px] w-[250px] mt-[12px] rounded-md relative bg-[#D49494] text-white opacity-1 hover:bg-[#e8aeae]')}>
                     Open Maps
                   </button>
