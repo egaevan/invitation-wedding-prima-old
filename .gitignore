@@ -1,0 +1,6 @@
+.env
+.vscode
+/.next/*
+/.vscode/*
+/node_modules/*
+.idea
