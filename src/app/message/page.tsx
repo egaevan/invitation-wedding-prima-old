@@ -70,9 +70,9 @@ export default function Page() {
           <form onSubmit={submitForm}>
             <div className={classnames('bg-[#FEDFE3] pb-[50px] rounded-md flex flex-col font-caladea pt-[16px] px-[23px]')} style={{ boxShadow: '2px 4px 4px rgba(0, 0, 0, 0.25)' }}>
               <div className={classnames('flex flex-col items-center')}>
-                <h1 className={classnames('p-0 m-0 font-caladea text-[#965A00] text-[24px]')}>EGA</h1>
+                <h1 className={classnames('p-0 m-0 font-caladea text-[#965A00] text-[24px]')}>PRIMA</h1>
                 <h1 className={classnames('p-0 m-0 font-caladea text-[#965A00] text-[24px]')}>&</h1>
-                <h1 className={classnames('p-0 m-0 font-caladea text-[#965A00] text-[24px]')}>ICA</h1>
+                <h1 className={classnames('p-0 m-0 font-caladea text-[#965A00] text-[24px]')}>YULIA</h1>
                 <Image
                     alt='Mountains'
                     src={flower3}
